@@ -337,7 +337,6 @@ a.sheet-post:hover, a.sheet-post:hover .sheet-post-title {
 
 .sheet-sidebar-social {
 	font-size: 20px;
-/*	line-height: 40px;*/
 	text-align: center;	
 }
 
@@ -448,6 +447,27 @@ a.sheet-post:hover, a.sheet-post:hover .sheet-post-title {
 		margin-top: 10px;
 		text-align: right;
 	}
+}
+
+@media screen and (max-width: 768px) {
+	.sheet-author-social {
+		display: none;
+	}
+}
+
+.sheet-author-social {
+	font-size: 20px;
+	text-align: center;	
+	margin-right: 10px;
+}
+
+.sheet-author-social  a {
+	transition: all 0.3s;
+	color: #858585;
+}
+
+.sheet-author-social  a:hover {
+	color: #0084FF;
 }
 
 /* ======================================
