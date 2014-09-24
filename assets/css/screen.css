@@ -332,6 +332,22 @@ a.sheet-post:hover, a.sheet-post:hover .sheet-post-title {
 .sheet-sidebar-subscribe {
 	text-align: center;
 	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.sheet-sidebar-social {
+	font-size: 20px;
+/*	line-height: 40px;*/
+	text-align: center;	
+}
+
+.sheet-sidebar-social  a {
+	transition: all 0.3s;
+	color: #858585;
+}
+
+.sheet-sidebar-social  a:hover {
+	color: #0084FF;
 }
 
 /* pagination */
