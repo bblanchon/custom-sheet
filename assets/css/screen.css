@@ -267,6 +267,10 @@ blockquote {
 	color: #757575;
 }
 
+.sheet-post-content img {
+	max-width: 100%;
+}
+
 /* post listing */
 
 a.sheet-post .sheet-post-title {
