@@ -8,4 +8,6 @@
 
 	resizeHeader();
 	$(window).resize(resizeHeader);
+
+	$("table").addClass("pure-table pure-table-striped");
 }(jQuery));

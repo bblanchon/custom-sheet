@@ -19,7 +19,7 @@ body {
 	background-color: #f3f3f3; /* also the footer color */
 }
 
-body, .pure-g [class *= "pure-u"], .pure-g-r [class *= "pure-u"] {
+body, .pure-g [class *= "pure-u"] {
 	font-family: "Open Sans", sans-serif;
 }
 

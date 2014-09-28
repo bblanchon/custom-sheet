@@ -15,7 +15,9 @@
 		<link rel="stylesheet" href="{{asset "fonts/font-awesome/css/font-awesome.min.css"}}">
 		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
-		<link rel="stylesheet" href="{{asset "css/pure.min.css"}}">
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+    	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+
 		<link rel="stylesheet" href="{{asset "css/screen.css"}}">
 
 		{{ghost_head}}
@@ -37,11 +39,11 @@
 		<div id="sheet-layer-bottom" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
 			<header>
 				<div id="sheet-header-content">
-					<div class="pure-g-r">
-						<div class="pure-u-1-2">
+					<div class="pure-g">
+						<div class="pure-u-1 pure-u-md-1-2">
 							<a class="sheet-title" href="{{@blog.url}}"><h1 class="sheet-header-title">{{@blog.title}}</h1></a>
 						</div>
-						<div class="pure-u-1-2">
+						<div class="pure-u-1 pure-u-md-1-2">
 							<h1 class="sheet-header-secondary"></h1>
 						</div>
 					</div>
@@ -56,12 +58,12 @@
 
 			<footer class="sheet-footer">
 				<div class="sheet-footer-content">
-					<div class="pure-g-r">
-						<div class="pure-u-1-2 sheet-copyright">
+					<div class="pure-g">
+						<div class="pure-u-1 pure-u-md-1-2 sheet-copyright">
 							&copy; <time datetime="{{date format='YYYY'}}">{{date format="YYYY"}}</time> <a href="{{@blog.url}}">{{@blog.title}}</a>
 						</div>
 
-						<div class="pure-u-1-2 sheet-footer-secondary">
+						<div class="pure-u-1 pure-u-md-1-2 sheet-footer-secondary">
 						</div>
 					</div>
 				</div>
