@@ -9,5 +9,6 @@
 	resizeHeader();
 	$(window).resize(resizeHeader);
 
-	$("table").addClass("pure-table pure-table-striped");
+	$("table:has(thead)").addClass("pure-table pure-table-striped");
+	$("table:not(:has(thead))").addClass("pure-table pure-table-horizontal");
 }(jQuery));
